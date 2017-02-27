@@ -1,0 +1,53 @@
+{
+  "name": "generator-js",
+  "version": "0.0.0",
+  "description": "Personal Yeoman Generator for Javascript projects",
+  "homepage": "",
+  "author": {
+    "name": "Alberto Fernandez",
+    "email": "albertofdzm@gmail.com",
+    "url": "http://onlythepixel.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator javascript-generator generator-js",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.0.0",
+    "chalk": "^1.1.3",
+    "yosay": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.6.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "AlbertoFdzM/generator-js",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
